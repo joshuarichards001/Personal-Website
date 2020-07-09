@@ -73,7 +73,7 @@ nav {
 }
 
 .close i {
-  color: #eb648c;
+  color: #48B5A4;
 }
 
 .nav-list {
@@ -111,12 +111,13 @@ nav {
   color: rgba(0, 0, 0, 0.7);
 }
 
+
+
 /* hero */
 .hero {
     width: 100%;
     height: 80vh;
-    background: linear-gradient(135deg, rgba(49,24,131,0.9) 0%, rgba(72,56,149, 0.8) 100%)
-    , url("../images/header-bg.jpg") center no-repeat;
+    background-color: #0A192F;
     background-size: cover;
     position: relative;
 }
@@ -155,7 +156,7 @@ nav {
 }
 
 .btn {
-  background-color: #eb648c;
+  background-color: #48B5A4;
   border-radius: 2rem;
   color: #fafafa;
   display: inline-block;
@@ -166,8 +167,10 @@ nav {
 }
 
 .btn:hover {
-  background-color: #ce587b;
+  background-color: #48B5A4;
 }
+
+
 
 /* projects */
 .experience-outdoors {
@@ -204,7 +207,7 @@ nav {
 .activities-grid-item {
   height: 40rem;
   padding: 5rem;
-  color: #fafafa;
+  color: #faf1fa;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -221,7 +224,7 @@ nav {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, rgba(49,24,131,0.9) 0%, rgba(72,56,149, 0.8) 100%);
+  background-color: #0A192F;
   z-index: -1;
 }
 
@@ -242,7 +245,7 @@ nav {
 
 .activities-grid-item i {
   font-size: 4rem;
-  color: #eb648c;
+  color: #48B5A4;
 }
 
 .activities-grid-item h1 {
@@ -252,12 +255,13 @@ nav {
   margin: 2rem 0;
 }
 
+
+
 /* testimonials */
 .testimonials {
   width: 100%;
   height: 80vh;
-  background: linear-gradient(135deg, rgba(49,24,131,0.9) 0%, rgba(72,56,149, 0.8) 100%)
-    , url("../images/testimonials-bg.jpg") center no-repeat fixed;
+  background-color: #0A192F;
   background-size: cover;
   position: relative;
 }
@@ -296,7 +300,7 @@ nav {
   left: 50%;
   transform: translateX(-50%);
   font-size: 8rem;
-  color: #eb648c;
+  color: #48B5A4;
   opacity: .5;
   z-index: -1;
 }
@@ -309,8 +313,10 @@ nav {
   width: 10rem;
   height: 10rem;
   border-radius: 100%;
-  border: 3px solid #eb648c;
+  border: 3px solid #48B5A4;
 }
+
+
 
 /* begin adventures */
 .adventure-grid {
@@ -330,6 +336,8 @@ footer {
   text-align: center;
   color: rgba(0, 0, 0, 0.7);
 }
+
+
 
 /* media queries */
 @media screen and (min-width: 350px) {
@@ -393,7 +401,7 @@ footer {
     position: absolute;
     left: 0;
     bottom: -.5rem;
-    background-color: #eb648c;
+    background-color: #48B5A4;
     width: 100%;
     height: 2px;
     transform: scaleX(0);
