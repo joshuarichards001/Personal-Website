@@ -4,6 +4,6 @@ A personal website that I will use as a sort of CV holding contact information a
 
 Once the website is online its URL will be
 
-joshrichards.co
+http://joshrichards.co
 
 Layout used from https://github.com/salazarjoshua/salazarjoshua.github.io
