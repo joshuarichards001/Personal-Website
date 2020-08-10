@@ -310,7 +310,7 @@ body {
   -ms-grid-row: 1;
   grid-row: 1;
   min-height: 300px;
-  background-image: url("../assets/images/config-edit.png");
+  background-image: url("../assets/images/BI-Agent.png");
   background-size: cover;
   -webkit-transition: background-position 0.5s ease-in;
   transition: background-position 0.5s ease-in;
@@ -338,7 +338,7 @@ body {
   grid-column: 6 / 13;
   -ms-grid-row: 1;
   grid-row: 1;
-  background-image: url("../assets/images/incomplete-todos.png");
+  background-image: url("../assets/images/Todo-App.png");
 }
 
 #works .project-details {
