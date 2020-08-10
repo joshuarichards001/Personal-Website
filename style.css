@@ -295,6 +295,11 @@ body {
   }
 }
 
+.website-layout {
+  text-decoration: none;
+  color: #F5F5F5;
+}
+
 /* END HOME */
 /* PROJECT START */
 #works h1 {
