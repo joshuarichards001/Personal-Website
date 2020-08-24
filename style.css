@@ -343,7 +343,7 @@ body {
   grid-column: 6 / 13;
   -ms-grid-row: 1;
   grid-row: 1;
-  background-image: url("../assets/images/Todo-App.png");
+  background-image: url("../assets/images/Budget-App.png");
 }
 
 #works .project-details {
