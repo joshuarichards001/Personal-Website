@@ -244,7 +244,6 @@ body {
   font-weight: 500;
   padding: 20px 28px;
   border-radius: 5px;
-  font-family: consolas;
   margin-bottom: 50px;
 }
 
@@ -410,7 +409,6 @@ body {
   display: inline-block;
   margin: 0  0 0 15px;
   font-weight: 300;
-  font-family: consolas;
 }
 
 #works .programming-languages.left {
@@ -553,7 +551,6 @@ body {
 .about-content ul li {
   font-weight: 300;
   color: #F5F5F5;
-  font-family: consolas;
   margin: 5px;
 }
 
@@ -631,7 +628,6 @@ body {
   font-weight: 500;
   padding: 18px 18px;
   border-radius: 5px;
-  font-family: consolas;
   margin-bottom: 50px;
 }
 
