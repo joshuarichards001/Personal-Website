@@ -1,203 +1,388 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Joshua Richards</title>
-    
-    <link rel="shortcut icon" type="img/png" href="./assets/images/jr-icon.png">
-    <link rel="stylesheet" href="./aos-master/dist/aos.css"/>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+
+    <link
+      rel="shortcut icon"
+      type="img/png"
+      href="./assets/images/jr-icon.png"
+    />
+    <link rel="stylesheet" href="./aos-master/dist/aos.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-178390544-2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-178390544-2");
+    </script>
+  </head>
+  <body>
     <nav class="navbar">
-        <div class="logo" data-aos="fade-down" data-aos-delay="0">
-            <a href="#home"><span>jr</span></a>
+      <div class="logo" data-aos="fade-down" data-aos-delay="0">
+        <a href="#home"><span>jr</span></a>
+      </div>
+      <ul id="nav-list">
+        <li class="active" data-aos="fade-down" data-aos-delay="150">
+          <a class="menu" href="#works">Works</a>
+        </li>
+        <li data-aos="fade-down" data-aos-delay="300">
+          <a class="menu" href="#about">About</a>
+        </li>
+        <li data-aos="fade-down" data-aos-delay="450">
+          <a class="menu" href="#contact">Contact</a>
+        </li>
+
+        <div class="ul-links">
+          <div class="left-links">
+            <a
+              target="_blank"
+              href="https://github.com/joshuarichards001"
+              class="fill"
+            >
+              <svg
+                viewBox="0 0 15 15"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                width="28"
+                height="28"
+              >
+                <path
+                  d="M5.65 12.477a.5.5 0 10-.3-.954l.3.954zm-3.648-2.96l-.484-.128-.254.968.484.127.254-.968zM9 14.5v.5h1v-.5H9zm.063-4.813l-.054-.497a.5.5 0 00-.299.852l.352-.354zM12.5 5.913h.5V5.91l-.5.002zm-.833-2.007l-.466-.18a.5.5 0 00.112.533l.354-.353zm-.05-2.017l.456-.204a.5.5 0 00-.319-.276l-.137.48zm-2.173.792l-.126.484a.5.5 0 00.398-.064l-.272-.42zm-3.888 0l-.272.42a.5.5 0 00.398.064l-.126-.484zM3.383 1.89l-.137-.48a.5.5 0 00-.32.276l.457.204zm-.05 2.017l.354.353a.5.5 0 00.112-.534l-.466.181zM2.5 5.93H3v-.002l-.5.002zm3.438 3.758l.352.355a.5.5 0 00-.293-.851l-.06.496zM5.5 11H6l-.001-.037L5.5 11zM5 14.5v.5h1v-.5H5zm.35-2.977c-.603.19-.986.169-1.24.085-.251-.083-.444-.25-.629-.49a4.8 4.8 0 01-.27-.402c-.085-.139-.182-.302-.28-.447-.191-.281-.473-.633-.929-.753l-.254.968c.08.02.184.095.355.346.082.122.16.252.258.412.094.152.202.32.327.484.253.33.598.663 1.11.832.51.168 1.116.15 1.852-.081l-.3-.954zm4.65-.585c0-.318-.014-.608-.104-.878-.096-.288-.262-.51-.481-.727l-.705.71c.155.153.208.245.237.333.035.105.053.254.053.562h1zm-.884-.753c.903-.097 1.888-.325 2.647-.982.78-.675 1.237-1.729 1.237-3.29h-1c0 1.359-.39 2.1-.892 2.534-.524.454-1.258.653-2.099.743l.107.995zM13 5.91a3.354 3.354 0 00-.98-2.358l-.707.706c.438.44.685 1.034.687 1.655l1-.003zm-.867-1.824c.15-.384.22-.794.21-1.207l-1 .025a2.12 2.12 0 01-.142.82l.932.362zm.21-1.207a3.119 3.119 0 00-.27-1.195l-.913.408c.115.256.177.532.184.812l1-.025zm-.726-.99c.137-.481.137-.482.136-.482h-.003l-.004-.002a.462.462 0 00-.03-.007 1.261 1.261 0 00-.212-.024 2.172 2.172 0 00-.51.054c-.425.091-1.024.317-1.82.832l.542.84c.719-.464 1.206-.634 1.488-.694a1.2 1.2 0 01.306-.03l-.008-.001a.278.278 0 01-.01-.002l-.006-.002h-.003l-.002-.001c-.001 0-.002 0 .136-.482zm-2.047.307a8.209 8.209 0 00-4.14 0l.252.968a7.209 7.209 0 013.636 0l.252-.968zm-3.743.064c-.797-.514-1.397-.74-1.822-.83a2.17 2.17 0 00-.51-.053 1.259 1.259 0 00-.241.03l-.004.002h-.003l.136.481.137.481h-.001l-.002.001-.003.001a.327.327 0 01-.016.004l-.008.001h.008a1.19 1.19 0 01.298.03c.282.06.769.23 1.488.694l.543-.84zm-2.9-.576a3.12 3.12 0 00-.27 1.195l1 .025a2.09 2.09 0 01.183-.812l-.913-.408zm-.27 1.195c-.01.413.06.823.21 1.207l.932-.362a2.12 2.12 0 01-.143-.82l-1-.025zm.322.673a3.354 3.354 0 00-.726 1.091l.924.38c.118-.285.292-.545.51-.765l-.708-.706zm-.726 1.091A3.354 3.354 0 002 5.93l1-.003c0-.31.06-.616.177-.902l-.924-.38zM2 5.93c0 1.553.458 2.597 1.239 3.268.757.65 1.74.88 2.64.987l.118-.993C5.15 9.09 4.416 8.89 3.89 8.438 3.388 8.007 3 7.276 3 5.928H2zm3.585 3.404c-.5.498-.629 1.09-.584 1.704L6 10.963c-.03-.408.052-.683.291-.921l-.705-.709zM5 11v3.5h1V11H5zm5 3.5V13H9v1.5h1zm0-1.5v-2.063H9V13h1z"
+                  fill="#ACACAC"
+                ></path>
+              </svg>
+            </a>
+
+            <a
+              target="_blank"
+              href="https://linkedin.com/in/joshua-richards-ab302916b/"
+              class="stroke"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="25"
+                height="25"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 8c0 .557-.447 1.008-1 1.008s-1-.45-1-1.008c0-.557.447-1.008 1-1.008s1 .452 1 1.008zm0 2h-2v6h2v-6zm3 0h-2v6h2v-2.861c0-1.722 2.002-1.881 2.002 0v2.861h1.998v-3.359c0-3.284-3.128-3.164-4-1.548v-1.093z"
+                  fill="#ACACAC"
+                ></path>
+              </svg>
+            </a>
+
+            <a href="mailto:joshuarichards001@gmail.com">
+              <svg
+                viewBox="0 0 15 15"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                width="28"
+                height="28"
+              >
+                <path
+                  d="M.5 4.5l7 4 7-4m-13-3h12a1 1 0 011 1v10a1 1 0 01-1 1h-12a1 1 0 01-1-1v-10a1 1 0 011-1z"
+                  stroke="#ACACAC"
+                ></path>
+              </svg>
+            </a>
+          </div>
         </div>
-        <ul id="nav-list">
-            <li class="active" data-aos="fade-down" data-aos-delay="150"><a class="menu" href="#works">Works</a></li>
-            <li data-aos="fade-down" data-aos-delay="300"><a class="menu" href="#about">About</a></li>
-            <li data-aos="fade-down" data-aos-delay="450"><a class="menu" href="#contact">Contact</a></li>
+      </ul>
 
-            <div class="ul-links">
-                
-                <div class="left-links">
-                    <a target="_blank" href="https://github.com/joshuarichards001" class="fill">
-                        <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" width="28" height="28"><path d="M5.65 12.477a.5.5 0 10-.3-.954l.3.954zm-3.648-2.96l-.484-.128-.254.968.484.127.254-.968zM9 14.5v.5h1v-.5H9zm.063-4.813l-.054-.497a.5.5 0 00-.299.852l.352-.354zM12.5 5.913h.5V5.91l-.5.002zm-.833-2.007l-.466-.18a.5.5 0 00.112.533l.354-.353zm-.05-2.017l.456-.204a.5.5 0 00-.319-.276l-.137.48zm-2.173.792l-.126.484a.5.5 0 00.398-.064l-.272-.42zm-3.888 0l-.272.42a.5.5 0 00.398.064l-.126-.484zM3.383 1.89l-.137-.48a.5.5 0 00-.32.276l.457.204zm-.05 2.017l.354.353a.5.5 0 00.112-.534l-.466.181zM2.5 5.93H3v-.002l-.5.002zm3.438 3.758l.352.355a.5.5 0 00-.293-.851l-.06.496zM5.5 11H6l-.001-.037L5.5 11zM5 14.5v.5h1v-.5H5zm.35-2.977c-.603.19-.986.169-1.24.085-.251-.083-.444-.25-.629-.49a4.8 4.8 0 01-.27-.402c-.085-.139-.182-.302-.28-.447-.191-.281-.473-.633-.929-.753l-.254.968c.08.02.184.095.355.346.082.122.16.252.258.412.094.152.202.32.327.484.253.33.598.663 1.11.832.51.168 1.116.15 1.852-.081l-.3-.954zm4.65-.585c0-.318-.014-.608-.104-.878-.096-.288-.262-.51-.481-.727l-.705.71c.155.153.208.245.237.333.035.105.053.254.053.562h1zm-.884-.753c.903-.097 1.888-.325 2.647-.982.78-.675 1.237-1.729 1.237-3.29h-1c0 1.359-.39 2.1-.892 2.534-.524.454-1.258.653-2.099.743l.107.995zM13 5.91a3.354 3.354 0 00-.98-2.358l-.707.706c.438.44.685 1.034.687 1.655l1-.003zm-.867-1.824c.15-.384.22-.794.21-1.207l-1 .025a2.12 2.12 0 01-.142.82l.932.362zm.21-1.207a3.119 3.119 0 00-.27-1.195l-.913.408c.115.256.177.532.184.812l1-.025zm-.726-.99c.137-.481.137-.482.136-.482h-.003l-.004-.002a.462.462 0 00-.03-.007 1.261 1.261 0 00-.212-.024 2.172 2.172 0 00-.51.054c-.425.091-1.024.317-1.82.832l.542.84c.719-.464 1.206-.634 1.488-.694a1.2 1.2 0 01.306-.03l-.008-.001a.278.278 0 01-.01-.002l-.006-.002h-.003l-.002-.001c-.001 0-.002 0 .136-.482zm-2.047.307a8.209 8.209 0 00-4.14 0l.252.968a7.209 7.209 0 013.636 0l.252-.968zm-3.743.064c-.797-.514-1.397-.74-1.822-.83a2.17 2.17 0 00-.51-.053 1.259 1.259 0 00-.241.03l-.004.002h-.003l.136.481.137.481h-.001l-.002.001-.003.001a.327.327 0 01-.016.004l-.008.001h.008a1.19 1.19 0 01.298.03c.282.06.769.23 1.488.694l.543-.84zm-2.9-.576a3.12 3.12 0 00-.27 1.195l1 .025a2.09 2.09 0 01.183-.812l-.913-.408zm-.27 1.195c-.01.413.06.823.21 1.207l.932-.362a2.12 2.12 0 01-.143-.82l-1-.025zm.322.673a3.354 3.354 0 00-.726 1.091l.924.38c.118-.285.292-.545.51-.765l-.708-.706zm-.726 1.091A3.354 3.354 0 002 5.93l1-.003c0-.31.06-.616.177-.902l-.924-.38zM2 5.93c0 1.553.458 2.597 1.239 3.268.757.65 1.74.88 2.64.987l.118-.993C5.15 9.09 4.416 8.89 3.89 8.438 3.388 8.007 3 7.276 3 5.928H2zm3.585 3.404c-.5.498-.629 1.09-.584 1.704L6 10.963c-.03-.408.052-.683.291-.921l-.705-.709zM5 11v3.5h1V11H5zm5 3.5V13H9v1.5h1zm0-1.5v-2.063H9V13h1z" fill="#ACACAC"></path></svg>    
-                    </a>
-            
-                    <a target="_blank" href="https://linkedin.com/in/joshua-richards-ab302916b/" class="stroke">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 8c0 .557-.447 1.008-1 1.008s-1-.45-1-1.008c0-.557.447-1.008 1-1.008s1 .452 1 1.008zm0 2h-2v6h2v-6zm3 0h-2v6h2v-2.861c0-1.722 2.002-1.881 2.002 0v2.861h1.998v-3.359c0-3.284-3.128-3.164-4-1.548v-1.093z" fill="#ACACAC"></path></svg>
-                    </a>
-
-                    <a href="mailto:joshuarichards001@gmail.com">
-                        <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" width="28" height="28"><path d="M.5 4.5l7 4 7-4m-13-3h12a1 1 0 011 1v10a1 1 0 01-1 1h-12a1 1 0 01-1-1v-10a1 1 0 011-1z" stroke="#ACACAC"></path></svg>
-                    </a>
-                </div>
-            </div>
-        </ul>
-
-        <div id="burger" data-aos="fade-down" data-aos-delay="0">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
+      <div id="burger" data-aos="fade-down" data-aos-delay="0">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
     </nav>
 
-
     <section class="wrapper" id="home">
-        <div class="home-content">
-            <h6 data-aos="fade-up" data-aos-delay="600">Hey there, I'm</h6>
-            <h1 data-aos="fade-up" data-aos-delay="750">Joshua Richards.</h1>
-            <h1 data-aos="fade-up" data-aos-delay="900"><span>I build websites.</span></h1>
-            <p data-aos="fade-up" data-aos-delay="1050">I'm a Software Engineering student based in Wellington, New Zealand. I specialized in full stack/frontend web development.</p>
-            <a href="#works"><button class="view-btn" data-aos="fade-up" data-aos-delay="1350">View Portfolio</button></a>
-        </div>
+      <div class="home-content">
+        <h6 data-aos="fade-up" data-aos-delay="600">Hey there, I'm</h6>
+        <h1 data-aos="fade-up" data-aos-delay="750">Joshua Richards.</h1>
+        <h1 data-aos="fade-up" data-aos-delay="900">
+          <span>I build websites.</span>
+        </h1>
+        <p data-aos="fade-up" data-aos-delay="1050">
+          I'm a Software Engineering student based in Wellington, New Zealand. I
+          specialized in full stack/frontend web development.
+        </p>
+        <a href="#works"
+          ><button class="view-btn" data-aos="fade-up" data-aos-delay="1350">
+            View Portfolio
+          </button></a
+        >
+      </div>
     </section>
 
     <!-- START WORKS -->
     <div class="wrapper" id="works">
-        <h1  data-aos="fade-up">A Couple Things I've Built</h1>
+      <h1 data-aos="fade-up">A Couple Things I've Built</h1>
 
-        <div class="grid-content" data-aos="fade-right">
-            <a target="_blank" href="https://docs.google.com/document/d/17OpVc_uqRux5cWiweJHUbVJdmFNNaSnCxntKlfgxyIg/edit?usp=sharing" class="project-1 right"></a>
-            <div class="project-details right" data-aos="fade-right" data-aos-delay="200">
-                <h2><a target="_blank" href="https://docs.google.com/document/d/17OpVc_uqRux5cWiweJHUbVJdmFNNaSnCxntKlfgxyIg/edit?usp=sharing">Work - Business Intelligence Agent</a></h2>
-                <h4>During last summer built a desktop application for CR Automation. This program extracts data from a machine/switch/computer and then passes it on to a database or file. 
-                    It uses many different communication protocols such as SNMP and OPC. It can also process multiple configurations at once using parallel programming.</h4>
-                <div class="programming-languages right">
-                    <p>C#</p>
-                    <p>.NET</p>
-                    <p>SQL Server</p>
-                    <p>Visual Studio</p>
-                    <p>WPF</p>
-                </div>
-                <div class="links right">
-                </div>
-            </div>
+      <div class="grid-content" data-aos="fade-right">
+        <a
+          target="_blank"
+          href="https://docs.google.com/document/d/17OpVc_uqRux5cWiweJHUbVJdmFNNaSnCxntKlfgxyIg/edit?usp=sharing"
+          class="project-1 right"
+        ></a>
+        <div
+          class="project-details right"
+          data-aos="fade-right"
+          data-aos-delay="200"
+        >
+          <h2>
+            <a
+              target="_blank"
+              href="https://docs.google.com/document/d/17OpVc_uqRux5cWiweJHUbVJdmFNNaSnCxntKlfgxyIg/edit?usp=sharing"
+              >Work - Business Intelligence Agent</a
+            >
+          </h2>
+          <h4>
+            During last summer built a desktop application for CR Automation.
+            This program extracts data from a machine/switch/computer and then
+            passes it on to a database or file. It uses many different
+            communication protocols such as SNMP and OPC. It can also process
+            multiple configurations at once using parallel programming.
+          </h4>
+          <div class="programming-languages right">
+            <p>C#</p>
+            <p>.NET</p>
+            <p>SQL Server</p>
+            <p>Visual Studio</p>
+            <p>WPF</p>
+          </div>
+          <div class="links right"></div>
         </div>
+      </div>
 
-        
-    
-        <div class="grid-content" data-aos="fade-right">
-            <a target="_blank" href="https://financial-freedom.netlify.app" class="project-2 left"></a>
-            <div class="project-details left" data-aos="fade-right" data-aos-delay="200">
-                <h2><a target="_blank" href="https://financial-freedom.netlify.app">Personal - Financial Freedom</a></h2>
-                <h4>A full-stack budgeting application that manages users and transactions. Each user can add and delete 
-                transactions from their own list and see data visualisation to showcase their spending habits. I also 
-                ported this project to a mobile application using the Ionic Framework. It is built with React/Typescript/CSS 
-                on the frontend (Deployed using Netlify) and Django/RESTful Framework on the backend (Deployed using Heroku).
-                </h4>
-                <div class="programming-languages left">
-                    <p>React.js</p>
-                    <p>Typescript</p>
-                    <p>CSS</p>
-                    <p>Python</p>
-                    <p>Django</p>
-                    <p>RESTful API</p>
-                </div>
-                <div class="links left">
-                    <a target="_blank" href="https://github.com/joshuarichards001/budgeting-web-app">
-                            <svg class="github-svg" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" width="30" height="30"><path d="M5.65 12.477a.5.5 0 10-.3-.954l.3.954zm-3.648-2.96l-.484-.128-.254.968.484.127.254-.968zM9 14.5v.5h1v-.5H9zm.063-4.813l-.054-.497a.5.5 0 00-.299.852l.352-.354zM12.5 5.913h.5V5.91l-.5.002zm-.833-2.007l-.466-.18a.5.5 0 00.112.533l.354-.353zm-.05-2.017l.456-.204a.5.5 0 00-.319-.276l-.137.48zm-2.173.792l-.126.484a.5.5 0 00.398-.064l-.272-.42zm-3.888 0l-.272.42a.5.5 0 00.398.064l-.126-.484zM3.383 1.89l-.137-.48a.5.5 0 00-.32.276l.457.204zm-.05 2.017l.354.353a.5.5 0 00.112-.534l-.466.181zM2.5 5.93H3v-.002l-.5.002zm3.438 3.758l.352.355a.5.5 0 00-.293-.851l-.06.496zM5.5 11H6l-.001-.037L5.5 11zM5 14.5v.5h1v-.5H5zm.35-2.977c-.603.19-.986.169-1.24.085-.251-.083-.444-.25-.629-.49a4.8 4.8 0 01-.27-.402c-.085-.139-.182-.302-.28-.447-.191-.281-.473-.633-.929-.753l-.254.968c.08.02.184.095.355.346.082.122.16.252.258.412.094.152.202.32.327.484.253.33.598.663 1.11.832.51.168 1.116.15 1.852-.081l-.3-.954zm4.65-.585c0-.318-.014-.608-.104-.878-.096-.288-.262-.51-.481-.727l-.705.71c.155.153.208.245.237.333.035.105.053.254.053.562h1zm-.884-.753c.903-.097 1.888-.325 2.647-.982.78-.675 1.237-1.729 1.237-3.29h-1c0 1.359-.39 2.1-.892 2.534-.524.454-1.258.653-2.099.743l.107.995zM13 5.91a3.354 3.354 0 00-.98-2.358l-.707.706c.438.44.685 1.034.687 1.655l1-.003zm-.867-1.824c.15-.384.22-.794.21-1.207l-1 .025a2.12 2.12 0 01-.142.82l.932.362zm.21-1.207a3.119 3.119 0 00-.27-1.195l-.913.408c.115.256.177.532.184.812l1-.025zm-.726-.99c.137-.481.137-.482.136-.482h-.003l-.004-.002a.462.462 0 00-.03-.007 1.261 1.261 0 00-.212-.024 2.172 2.172 0 00-.51.054c-.425.091-1.024.317-1.82.832l.542.84c.719-.464 1.206-.634 1.488-.694a1.2 1.2 0 01.306-.03l-.008-.001a.278.278 0 01-.01-.002l-.006-.002h-.003l-.002-.001c-.001 0-.002 0 .136-.482zm-2.047.307a8.209 8.209 0 00-4.14 0l.252.968a7.209 7.209 0 013.636 0l.252-.968zm-3.743.064c-.797-.514-1.397-.74-1.822-.83a2.17 2.17 0 00-.51-.053 1.259 1.259 0 00-.241.03l-.004.002h-.003l.136.481.137.481h-.001l-.002.001-.003.001a.327.327 0 01-.016.004l-.008.001h.008a1.19 1.19 0 01.298.03c.282.06.769.23 1.488.694l.543-.84zm-2.9-.576a3.12 3.12 0 00-.27 1.195l1 .025a2.09 2.09 0 01.183-.812l-.913-.408zm-.27 1.195c-.01.413.06.823.21 1.207l.932-.362a2.12 2.12 0 01-.143-.82l-1-.025zm.322.673a3.354 3.354 0 00-.726 1.091l.924.38c.118-.285.292-.545.51-.765l-.708-.706zm-.726 1.091A3.354 3.354 0 002 5.93l1-.003c0-.31.06-.616.177-.902l-.924-.38zM2 5.93c0 1.553.458 2.597 1.239 3.268.757.65 1.74.88 2.64.987l.118-.993C5.15 9.09 4.416 8.89 3.89 8.438 3.388 8.007 3 7.276 3 5.928H2zm3.585 3.404c-.5.498-.629 1.09-.584 1.704L6 10.963c-.03-.408.052-.683.291-.921l-.705-.709zM5 11v3.5h1V11H5zm5 3.5V13H9v1.5h1zm0-1.5v-2.063H9V13h1z" fill="#F5F5F5"></path></svg>
-                    </a>
-                    <a target="_blank" href="https://financial-freedom.netlify.app/">
-                        <svg class="viewLink-svg" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" width="25" height="25"><path d="M4.5 6.5L1.328 9.672a2.828 2.828 0 104 4L8.5 10.5m2-2l3.172-3.172a2.829 2.829 0 00-4-4L6.5 4.5m-2 6l6-6" stroke="#F5F5F5"></path></svg>      
-                    </a>
-                </div>
-            </div>
+      <div class="grid-content" data-aos="fade-right">
+        <a
+          target="_blank"
+          href="https://financial-freedom.netlify.app"
+          class="project-2 left"
+        ></a>
+        <div
+          class="project-details left"
+          data-aos="fade-right"
+          data-aos-delay="200"
+        >
+          <h2>
+            <a target="_blank" href="https://financial-freedom.netlify.app"
+              >Personal - Financial Freedom</a
+            >
+          </h2>
+          <h4>
+            A full-stack budgeting application that manages users and
+            transactions. Each user can add and delete transactions from their
+            own list and see data visualisation to showcase their spending
+            habits. I also ported this project to a mobile application using the
+            Ionic Framework. It is built with React/Typescript/CSS on the
+            frontend (Deployed using Netlify) and Django/RESTful Framework on
+            the backend (Deployed using Heroku).
+          </h4>
+          <div class="programming-languages left">
+            <p>React.js</p>
+            <p>Typescript</p>
+            <p>CSS</p>
+            <p>Python</p>
+            <p>Django</p>
+            <p>RESTful API</p>
+          </div>
+          <div class="links left">
+            <a
+              target="_blank"
+              href="https://github.com/joshuarichards001/budgeting-web-app"
+            >
+              <svg
+                class="github-svg"
+                viewBox="0 0 15 15"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+              >
+                <path
+                  d="M5.65 12.477a.5.5 0 10-.3-.954l.3.954zm-3.648-2.96l-.484-.128-.254.968.484.127.254-.968zM9 14.5v.5h1v-.5H9zm.063-4.813l-.054-.497a.5.5 0 00-.299.852l.352-.354zM12.5 5.913h.5V5.91l-.5.002zm-.833-2.007l-.466-.18a.5.5 0 00.112.533l.354-.353zm-.05-2.017l.456-.204a.5.5 0 00-.319-.276l-.137.48zm-2.173.792l-.126.484a.5.5 0 00.398-.064l-.272-.42zm-3.888 0l-.272.42a.5.5 0 00.398.064l-.126-.484zM3.383 1.89l-.137-.48a.5.5 0 00-.32.276l.457.204zm-.05 2.017l.354.353a.5.5 0 00.112-.534l-.466.181zM2.5 5.93H3v-.002l-.5.002zm3.438 3.758l.352.355a.5.5 0 00-.293-.851l-.06.496zM5.5 11H6l-.001-.037L5.5 11zM5 14.5v.5h1v-.5H5zm.35-2.977c-.603.19-.986.169-1.24.085-.251-.083-.444-.25-.629-.49a4.8 4.8 0 01-.27-.402c-.085-.139-.182-.302-.28-.447-.191-.281-.473-.633-.929-.753l-.254.968c.08.02.184.095.355.346.082.122.16.252.258.412.094.152.202.32.327.484.253.33.598.663 1.11.832.51.168 1.116.15 1.852-.081l-.3-.954zm4.65-.585c0-.318-.014-.608-.104-.878-.096-.288-.262-.51-.481-.727l-.705.71c.155.153.208.245.237.333.035.105.053.254.053.562h1zm-.884-.753c.903-.097 1.888-.325 2.647-.982.78-.675 1.237-1.729 1.237-3.29h-1c0 1.359-.39 2.1-.892 2.534-.524.454-1.258.653-2.099.743l.107.995zM13 5.91a3.354 3.354 0 00-.98-2.358l-.707.706c.438.44.685 1.034.687 1.655l1-.003zm-.867-1.824c.15-.384.22-.794.21-1.207l-1 .025a2.12 2.12 0 01-.142.82l.932.362zm.21-1.207a3.119 3.119 0 00-.27-1.195l-.913.408c.115.256.177.532.184.812l1-.025zm-.726-.99c.137-.481.137-.482.136-.482h-.003l-.004-.002a.462.462 0 00-.03-.007 1.261 1.261 0 00-.212-.024 2.172 2.172 0 00-.51.054c-.425.091-1.024.317-1.82.832l.542.84c.719-.464 1.206-.634 1.488-.694a1.2 1.2 0 01.306-.03l-.008-.001a.278.278 0 01-.01-.002l-.006-.002h-.003l-.002-.001c-.001 0-.002 0 .136-.482zm-2.047.307a8.209 8.209 0 00-4.14 0l.252.968a7.209 7.209 0 013.636 0l.252-.968zm-3.743.064c-.797-.514-1.397-.74-1.822-.83a2.17 2.17 0 00-.51-.053 1.259 1.259 0 00-.241.03l-.004.002h-.003l.136.481.137.481h-.001l-.002.001-.003.001a.327.327 0 01-.016.004l-.008.001h.008a1.19 1.19 0 01.298.03c.282.06.769.23 1.488.694l.543-.84zm-2.9-.576a3.12 3.12 0 00-.27 1.195l1 .025a2.09 2.09 0 01.183-.812l-.913-.408zm-.27 1.195c-.01.413.06.823.21 1.207l.932-.362a2.12 2.12 0 01-.143-.82l-1-.025zm.322.673a3.354 3.354 0 00-.726 1.091l.924.38c.118-.285.292-.545.51-.765l-.708-.706zm-.726 1.091A3.354 3.354 0 002 5.93l1-.003c0-.31.06-.616.177-.902l-.924-.38zM2 5.93c0 1.553.458 2.597 1.239 3.268.757.65 1.74.88 2.64.987l.118-.993C5.15 9.09 4.416 8.89 3.89 8.438 3.388 8.007 3 7.276 3 5.928H2zm3.585 3.404c-.5.498-.629 1.09-.584 1.704L6 10.963c-.03-.408.052-.683.291-.921l-.705-.709zM5 11v3.5h1V11H5zm5 3.5V13H9v1.5h1zm0-1.5v-2.063H9V13h1z"
+                  fill="#F5F5F5"
+                ></path>
+              </svg>
+            </a>
+            <a target="_blank" href="https://financial-freedom.netlify.app/">
+              <svg
+                class="viewLink-svg"
+                viewBox="0 0 15 15"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                width="25"
+                height="25"
+              >
+                <path
+                  d="M4.5 6.5L1.328 9.672a2.828 2.828 0 104 4L8.5 10.5m2-2l3.172-3.172a2.829 2.829 0 00-4-4L6.5 4.5m-2 6l6-6"
+                  stroke="#F5F5F5"
+                ></path>
+              </svg>
+            </a>
+          </div>
         </div>
-        
+      </div>
     </div>
     <!-- END WORKS -->
-    
 
     <!-- START ABOUT -->
-    <section class="wrapper" id="about" data-aos="fade-in" data-aos-offset="300">
-        <div class="about-content">
-            <h1>About me</h1>
-            <h4>
-                I'm a student who is passionate about software development and am very interested in joining a team that shares this same passion. 
-                I am in my penultimate year studying Software Engineering. I am also a curious person who enjoys keeping up to date with this 
-                industry through regular extra learning and research. Additionally, I have professional experience developing in C# and SQL server.
-            </h4>
-            <br>
-            <h4>
-                Last summer, I completed an internship at CR Automation. My primary task was to develop a Business Intelligence application using C# 
-                and SQL Server. This application acts as the communication between a factory machine and a database. It used many unique industry-specific 
-                technologies and was very rewarding to develop. Because of this experience, I have a good understanding of how to work in a professional 
-                environment. I also found elements of my experience that I can improve on for future opportunities. 
-            </h4>
-            <br>
-            <h4>
-                Working on challenging problems with real impact is what I want to be doing in my career. I would love the opportunity to achieve this by 
-                being a part of your company.
-            </h4>
-            <br>
-            <h4>
-                Here are a few skills I've picked up:
-            </h4>
-            <br>
-            <ul>
-                <li>Python</li>
-                <li>C#</li>
-                <li>Java</li>
-                <li>JavaScript</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>React</li>
-                <li>Typescript</li>
-                <li>SQL Server</li>
-                <li>.NET</li>
-                <li>Django</li>
-                <li>Git</li>
-                <li>Agile</li>
-                <li>Artificial Intelligence</li>
-                <li>RESTful APIs</li>
-                <li>User Authentication</li>
-            </ul>
-            
-        </div>
-    </section> 
+    <section
+      class="wrapper"
+      id="about"
+      data-aos="fade-in"
+      data-aos-offset="300"
+    >
+      <div class="about-content">
+        <h1>About me</h1>
+        <h4>
+          I'm a student who is passionate about software development and am very
+          interested in joining a team that shares this same passion. I am in my
+          penultimate year studying Software Engineering. I am also a curious
+          person who enjoys keeping up to date with this industry through
+          regular extra learning and research. Additionally, I have professional
+          experience developing in C# and SQL server.
+        </h4>
+        <br />
+        <h4>
+          Last summer, I completed an internship at CR Automation. My primary
+          task was to develop a Business Intelligence application using C# and
+          SQL Server. This application acts as the communication between a
+          factory machine and a database. It used many unique industry-specific
+          technologies and was very rewarding to develop. Because of this
+          experience, I have a good understanding of how to work in a
+          professional environment. I also found elements of my experience that
+          I can improve on for future opportunities.
+        </h4>
+        <br />
+        <h4>
+          Working on challenging problems with real impact is what I want to be
+          doing in my career. I would love the opportunity to achieve this by
+          being a part of your company.
+        </h4>
+        <br />
+        <h4>Here are a few skills I've picked up:</h4>
+        <br />
+        <ul>
+          <li>Python</li>
+          <li>C#</li>
+          <li>Java</li>
+          <li>JavaScript</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>React</li>
+          <li>Typescript</li>
+          <li>SQL Server</li>
+          <li>.NET</li>
+          <li>Django</li>
+          <li>Git</li>
+          <li>Agile</li>
+          <li>Artificial Intelligence</li>
+          <li>RESTful APIs</li>
+          <li>User Authentication</li>
+        </ul>
+      </div>
+    </section>
     <!-- END ABOUT -->
 
     <!-- START CONTACT -->
     <section class="wrapper" id="contact">
-        <div class="contact-content" data-aos="fade-in" data-aos-offset="300">
-            <h1>Let's stop being strangers!</h1>
-            <h4>Feel free to get in touch. I'm always keen to talk about new opportunities or really anything to do with tech.</h4>
-            <br>
-            <a href="mailto:joshuarichards001@gmail.com"><button class="view-btn">Say Hello</button></a>
-            <p><a href="https://github.com/salazarjoshua/salazarjoshua.github.io" class="website-layout">This Websites Layout From Here</a></p>
-        </div>
+      <div class="contact-content" data-aos="fade-in" data-aos-offset="300">
+        <h1>Let's stop being strangers!</h1>
+        <h4>
+          Feel free to get in touch. I'm always keen to talk about new
+          opportunities or really anything to do with tech.
+        </h4>
+        <br />
+        <a href="mailto:joshuarichards001@gmail.com"
+          ><button class="view-btn">Say Hello</button></a
+        >
+        <p>
+          <a
+            href="https://github.com/salazarjoshua/salazarjoshua.github.io"
+            class="website-layout"
+            >This Websites Layout From Here</a
+          >
+        </p>
+      </div>
     </section>
     <!-- END CONTACT -->
 
-
     <footer class="wrapper">
-    <!-- START SIDE LINKS -->
-    <div class="left-links"  data-aos="fade-in" data-aos-delay="1600" data-aos-offset="-2000">
-        <a target="_blank" href="https://github.com/joshuarichards001" class="fill">
-            <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" width="28" height="28"><path d="M5.65 12.477a.5.5 0 10-.3-.954l.3.954zm-3.648-2.96l-.484-.128-.254.968.484.127.254-.968zM9 14.5v.5h1v-.5H9zm.063-4.813l-.054-.497a.5.5 0 00-.299.852l.352-.354zM12.5 5.913h.5V5.91l-.5.002zm-.833-2.007l-.466-.18a.5.5 0 00.112.533l.354-.353zm-.05-2.017l.456-.204a.5.5 0 00-.319-.276l-.137.48zm-2.173.792l-.126.484a.5.5 0 00.398-.064l-.272-.42zm-3.888 0l-.272.42a.5.5 0 00.398.064l-.126-.484zM3.383 1.89l-.137-.48a.5.5 0 00-.32.276l.457.204zm-.05 2.017l.354.353a.5.5 0 00.112-.534l-.466.181zM2.5 5.93H3v-.002l-.5.002zm3.438 3.758l.352.355a.5.5 0 00-.293-.851l-.06.496zM5.5 11H6l-.001-.037L5.5 11zM5 14.5v.5h1v-.5H5zm.35-2.977c-.603.19-.986.169-1.24.085-.251-.083-.444-.25-.629-.49a4.8 4.8 0 01-.27-.402c-.085-.139-.182-.302-.28-.447-.191-.281-.473-.633-.929-.753l-.254.968c.08.02.184.095.355.346.082.122.16.252.258.412.094.152.202.32.327.484.253.33.598.663 1.11.832.51.168 1.116.15 1.852-.081l-.3-.954zm4.65-.585c0-.318-.014-.608-.104-.878-.096-.288-.262-.51-.481-.727l-.705.71c.155.153.208.245.237.333.035.105.053.254.053.562h1zm-.884-.753c.903-.097 1.888-.325 2.647-.982.78-.675 1.237-1.729 1.237-3.29h-1c0 1.359-.39 2.1-.892 2.534-.524.454-1.258.653-2.099.743l.107.995zM13 5.91a3.354 3.354 0 00-.98-2.358l-.707.706c.438.44.685 1.034.687 1.655l1-.003zm-.867-1.824c.15-.384.22-.794.21-1.207l-1 .025a2.12 2.12 0 01-.142.82l.932.362zm.21-1.207a3.119 3.119 0 00-.27-1.195l-.913.408c.115.256.177.532.184.812l1-.025zm-.726-.99c.137-.481.137-.482.136-.482h-.003l-.004-.002a.462.462 0 00-.03-.007 1.261 1.261 0 00-.212-.024 2.172 2.172 0 00-.51.054c-.425.091-1.024.317-1.82.832l.542.84c.719-.464 1.206-.634 1.488-.694a1.2 1.2 0 01.306-.03l-.008-.001a.278.278 0 01-.01-.002l-.006-.002h-.003l-.002-.001c-.001 0-.002 0 .136-.482zm-2.047.307a8.209 8.209 0 00-4.14 0l.252.968a7.209 7.209 0 013.636 0l.252-.968zm-3.743.064c-.797-.514-1.397-.74-1.822-.83a2.17 2.17 0 00-.51-.053 1.259 1.259 0 00-.241.03l-.004.002h-.003l.136.481.137.481h-.001l-.002.001-.003.001a.327.327 0 01-.016.004l-.008.001h.008a1.19 1.19 0 01.298.03c.282.06.769.23 1.488.694l.543-.84zm-2.9-.576a3.12 3.12 0 00-.27 1.195l1 .025a2.09 2.09 0 01.183-.812l-.913-.408zm-.27 1.195c-.01.413.06.823.21 1.207l.932-.362a2.12 2.12 0 01-.143-.82l-1-.025zm.322.673a3.354 3.354 0 00-.726 1.091l.924.38c.118-.285.292-.545.51-.765l-.708-.706zm-.726 1.091A3.354 3.354 0 002 5.93l1-.003c0-.31.06-.616.177-.902l-.924-.38zM2 5.93c0 1.553.458 2.597 1.239 3.268.757.65 1.74.88 2.64.987l.118-.993C5.15 9.09 4.416 8.89 3.89 8.438 3.388 8.007 3 7.276 3 5.928H2zm3.585 3.404c-.5.498-.629 1.09-.584 1.704L6 10.963c-.03-.408.052-.683.291-.921l-.705-.709zM5 11v3.5h1V11H5zm5 3.5V13H9v1.5h1zm0-1.5v-2.063H9V13h1z" fill="#ACACAC"></path></svg>    
+      <!-- START SIDE LINKS -->
+      <div
+        class="left-links"
+        data-aos="fade-in"
+        data-aos-delay="1600"
+        data-aos-offset="-2000"
+      >
+        <a
+          target="_blank"
+          href="https://github.com/joshuarichards001"
+          class="fill"
+        >
+          <svg
+            viewBox="0 0 15 15"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            width="28"
+            height="28"
+          >
+            <path
+              d="M5.65 12.477a.5.5 0 10-.3-.954l.3.954zm-3.648-2.96l-.484-.128-.254.968.484.127.254-.968zM9 14.5v.5h1v-.5H9zm.063-4.813l-.054-.497a.5.5 0 00-.299.852l.352-.354zM12.5 5.913h.5V5.91l-.5.002zm-.833-2.007l-.466-.18a.5.5 0 00.112.533l.354-.353zm-.05-2.017l.456-.204a.5.5 0 00-.319-.276l-.137.48zm-2.173.792l-.126.484a.5.5 0 00.398-.064l-.272-.42zm-3.888 0l-.272.42a.5.5 0 00.398.064l-.126-.484zM3.383 1.89l-.137-.48a.5.5 0 00-.32.276l.457.204zm-.05 2.017l.354.353a.5.5 0 00.112-.534l-.466.181zM2.5 5.93H3v-.002l-.5.002zm3.438 3.758l.352.355a.5.5 0 00-.293-.851l-.06.496zM5.5 11H6l-.001-.037L5.5 11zM5 14.5v.5h1v-.5H5zm.35-2.977c-.603.19-.986.169-1.24.085-.251-.083-.444-.25-.629-.49a4.8 4.8 0 01-.27-.402c-.085-.139-.182-.302-.28-.447-.191-.281-.473-.633-.929-.753l-.254.968c.08.02.184.095.355.346.082.122.16.252.258.412.094.152.202.32.327.484.253.33.598.663 1.11.832.51.168 1.116.15 1.852-.081l-.3-.954zm4.65-.585c0-.318-.014-.608-.104-.878-.096-.288-.262-.51-.481-.727l-.705.71c.155.153.208.245.237.333.035.105.053.254.053.562h1zm-.884-.753c.903-.097 1.888-.325 2.647-.982.78-.675 1.237-1.729 1.237-3.29h-1c0 1.359-.39 2.1-.892 2.534-.524.454-1.258.653-2.099.743l.107.995zM13 5.91a3.354 3.354 0 00-.98-2.358l-.707.706c.438.44.685 1.034.687 1.655l1-.003zm-.867-1.824c.15-.384.22-.794.21-1.207l-1 .025a2.12 2.12 0 01-.142.82l.932.362zm.21-1.207a3.119 3.119 0 00-.27-1.195l-.913.408c.115.256.177.532.184.812l1-.025zm-.726-.99c.137-.481.137-.482.136-.482h-.003l-.004-.002a.462.462 0 00-.03-.007 1.261 1.261 0 00-.212-.024 2.172 2.172 0 00-.51.054c-.425.091-1.024.317-1.82.832l.542.84c.719-.464 1.206-.634 1.488-.694a1.2 1.2 0 01.306-.03l-.008-.001a.278.278 0 01-.01-.002l-.006-.002h-.003l-.002-.001c-.001 0-.002 0 .136-.482zm-2.047.307a8.209 8.209 0 00-4.14 0l.252.968a7.209 7.209 0 013.636 0l.252-.968zm-3.743.064c-.797-.514-1.397-.74-1.822-.83a2.17 2.17 0 00-.51-.053 1.259 1.259 0 00-.241.03l-.004.002h-.003l.136.481.137.481h-.001l-.002.001-.003.001a.327.327 0 01-.016.004l-.008.001h.008a1.19 1.19 0 01.298.03c.282.06.769.23 1.488.694l.543-.84zm-2.9-.576a3.12 3.12 0 00-.27 1.195l1 .025a2.09 2.09 0 01.183-.812l-.913-.408zm-.27 1.195c-.01.413.06.823.21 1.207l.932-.362a2.12 2.12 0 01-.143-.82l-1-.025zm.322.673a3.354 3.354 0 00-.726 1.091l.924.38c.118-.285.292-.545.51-.765l-.708-.706zm-.726 1.091A3.354 3.354 0 002 5.93l1-.003c0-.31.06-.616.177-.902l-.924-.38zM2 5.93c0 1.553.458 2.597 1.239 3.268.757.65 1.74.88 2.64.987l.118-.993C5.15 9.09 4.416 8.89 3.89 8.438 3.388 8.007 3 7.276 3 5.928H2zm3.585 3.404c-.5.498-.629 1.09-.584 1.704L6 10.963c-.03-.408.052-.683.291-.921l-.705-.709zM5 11v3.5h1V11H5zm5 3.5V13H9v1.5h1zm0-1.5v-2.063H9V13h1z"
+              fill="#ACACAC"
+            ></path>
+          </svg>
         </a>
-        <a target="_blank" href="https://linkedin.com/in/joshua-richards-ab302916b/" class="stroke">
-            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 8c0 .557-.447 1.008-1 1.008s-1-.45-1-1.008c0-.557.447-1.008 1-1.008s1 .452 1 1.008zm0 2h-2v6h2v-6zm3 0h-2v6h2v-2.861c0-1.722 2.002-1.881 2.002 0v2.861h1.998v-3.359c0-3.284-3.128-3.164-4-1.548v-1.093z" fill="#ACACAC"></path></svg>
+        <a
+          target="_blank"
+          href="https://linkedin.com/in/joshua-richards-ab302916b/"
+          class="stroke"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="25"
+            height="25"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 8c0 .557-.447 1.008-1 1.008s-1-.45-1-1.008c0-.557.447-1.008 1-1.008s1 .452 1 1.008zm0 2h-2v6h2v-6zm3 0h-2v6h2v-2.861c0-1.722 2.002-1.881 2.002 0v2.861h1.998v-3.359c0-3.284-3.128-3.164-4-1.548v-1.093z"
+              fill="#ACACAC"
+            ></path>
+          </svg>
         </a>
         <div class="vertical-line"></div>
-    </div>
+      </div>
 
-    <div class="right-links" data-aos="fade-in" data-aos-delay="1600" data-aos-offset="-2200">
-        <a href="mailto:joshuarichards001@gmail.com">joshuarichards001@gmail.com</a>
+      <div
+        class="right-links"
+        data-aos="fade-in"
+        data-aos-delay="1600"
+        data-aos-offset="-2200"
+      >
+        <a href="mailto:joshuarichards001@gmail.com"
+          >joshuarichards001@gmail.com</a
+        >
         <div class="vertical-line"></div>
-    </div>
-    <!-- END SIDE LINKS -->
+      </div>
+      <!-- END SIDE LINKS -->
     </footer>
-<script src="./js/jquery.min.js"></script>
-<script src="./aos-master/dist/aos.js"></script>
-<script src="./js/nav.js"></script>
-<script src="./js/main.js"></script>
-
-
-
-</body>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./aos-master/dist/aos.js"></script>
+    <script src="./js/nav.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
 </html>
-
